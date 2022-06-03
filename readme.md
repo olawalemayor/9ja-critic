@@ -10,6 +10,24 @@ Run command:
 cd client
 ```
 
+### To start dev mode
+
+```bash
+npm run dev
+```
+
+### To build the app
+
+```bash
+npm run build
+```
+
+### To preview the app
+
+```bash
+npm run preview
+```
+
 ## To migrate to the backend
 
 Run command:
