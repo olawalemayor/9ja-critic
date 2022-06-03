@@ -36,15 +36,13 @@ Run command:
 cd server
 ```
 
-## To install the node packages
+### To compile into Javascript
 
 Run command:
 
 ```bash
-npm install
+npm run build
 ```
-
-## Backend
 
 ### To start server
 
@@ -52,4 +50,12 @@ Run command:
 
 ```bash
 npm start
+```
+
+## To install the node packages (generally)
+
+Run command:
+
+```bash
+npm install
 ```
