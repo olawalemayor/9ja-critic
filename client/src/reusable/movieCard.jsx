@@ -11,7 +11,7 @@ export default function MovieCard({
   return (
     <NavLink
       to=""
-      className="bg-green-200 hover:bg-black rounded-md ml-2 xl:ml-0 xl:mr-2 p-2 border-2 hover:text-green-50"
+      className="bg-green-50 border hover:bg-green-900 rounded-md mr-2 p-2 shadow-md hover:text-green-50"
     >
       <div className="w-[150px] h-[150px] bg-gray-800">
         {img && <img src={require(img)} title={title} />}
@@ -21,7 +21,7 @@ export default function MovieCard({
 
         <div className="flex justify-between">
           <div className="font-bold">{rating}</div>
-          <div className="italic text-green-700 text-sm">
+          <div className="italic text-green-600 text-sm">
             {numberOfVotes} votes
           </div>
         </div>

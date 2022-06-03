@@ -8,7 +8,7 @@ export default function WhatToWatch({ whatToWatch }) {
         WHAT TO WATCH?
       </h2>
 
-      <div className="flex w-[100vw] xl:w-auto overflow-x-scroll xl:overflow-x-visible my-3">
+      <div className="flex w-[100vw] xl:w-auto overflow-x-scroll xl:overflow-x-visible my-3 pl-2 xl:pl-0">
         {whatToWatch.map(({ id, title, category, rating, numberOfVotes }) => (
           <MovieCard
             category={category}
