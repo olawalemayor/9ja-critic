@@ -1,5 +1,5 @@
 import React from "react";
-import searchIcon from "../assets/icons/magnifying-glass-svgrepo-com.svg";
+import { searchIcon } from "../assets/icons";
 
 export default function Searchbar() {
   return (
@@ -7,7 +7,11 @@ export default function Searchbar() {
       <button className="p-2">
         <img src={searchIcon} alt="" className="w-[20px] h-[20px]" />
       </button>
-      <input type="text" placeholder="Search Movie" className="outline-none" />
+      <input
+        type="text"
+        placeholder="Search Movie"
+        className="outline-none w-full"
+      />
     </div>
   );
 }
