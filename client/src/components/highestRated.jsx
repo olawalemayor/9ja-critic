@@ -22,7 +22,7 @@ export default function HighestRated({ highestRated }) {
         ))}
       </div>
 
-      <div className="flex justify-end px-2 mb-3">
+      <div className="flex justify-end px-2 mr-4 mb-3">
         <NavLink to="trending" className="underline">
           See more...
         </NavLink>

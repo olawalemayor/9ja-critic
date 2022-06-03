@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Hero, HighestRated, WhatToWatch } from "../components";
+import NewsSidebar from "../components/newsSidebar";
 import { getHighestRated } from "../shared/movieService";
 
 export default function Home() {
@@ -15,12 +16,14 @@ export default function Home() {
     <div className="max-w-[1200px] mx-auto">
       <Hero />
 
-      <div className="flex my-6">
-        <div className="xl:w-[70%]">
+      <div className="flex flex-col xl:flex-row my-6">
+        <div className="xl:w-[74%]">
           <HighestRated highestRated={highestRated} />
           <WhatToWatch whatToWatch={highestRated} />
         </div>
-        <div></div>
+        <div className="xl:w-[26%]">
+          <NewsSidebar />
+        </div>
       </div>
     </div>
   );

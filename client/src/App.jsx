@@ -20,7 +20,7 @@ function App() {
         <SocialWidget />
       </div>
 
-      <footer>
+      <footer className="border">
         <Footer />
       </footer>
     </div>
