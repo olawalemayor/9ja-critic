@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Header, Footer, AppBody } from "./UI";
+import { Header, Footer, AppBody, SocialWidget } from "./UI";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +15,10 @@ function App() {
       <main>
         <AppBody />
       </main>
+
+      <div className="hidden xl:block fixed top-[33.33%] right-0 w-[70px] max-h-max shadow-md">
+        <SocialWidget />
+      </div>
 
       <footer>
         <Footer />

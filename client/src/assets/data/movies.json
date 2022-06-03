@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "King of Thieves",
+    "rating": 9.8,
+    "tag": ["latest", "trending"],
+    "numberOfVotes": 3679,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi doloribus, neque deserunt distinctio dicta quibusdam nisi? Odio ut, deserunt, quam temporibus quasi eaque quae iure, totam incidunt id quia?",
+    "cast": ["Odunlade Adekola", "Femi Adebayo", "Iyabo Ojo"]
+  },
+  {
+    "id": 2,
+    "title": "King of Thieves",
+    "rating": 9.8,
+    "tag": ["incoming"],
+    "numberOfVotes": 3679,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi doloribus, neque deserunt distinctio dicta quibusdam nisi? Odio ut, deserunt, quam temporibus quasi eaque quae iure, totam incidunt id quia?",
+    "cast": ["Odunlade Adekola", "Femi Adebayo", "Iyabo Ojo"]
+  },
+  {
+    "id": 3,
+    "title": "King of Thieves",
+    "rating": 9.8,
+    "tag": ["incoming"],
+    "numberOfVotes": 3679,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi doloribus, neque deserunt distinctio dicta quibusdam nisi? Odio ut, deserunt, quam temporibus quasi eaque quae iure, totam incidunt id quia?",
+    "cast": ["Odunlade Adekola", "Femi Adebayo", "Iyabo Ojo"]
+  },
+  {
+    "id": 4,
+    "title": "King of Thieves",
+    "rating": 9.8,
+    "tag": ["trending"],
+    "numberOfVotes": 3679,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi doloribus, neque deserunt distinctio dicta quibusdam nisi? Odio ut, deserunt, quam temporibus quasi eaque quae iure, totam incidunt id quia?",
+    "cast": ["Odunlade Adekola", "Femi Adebayo", "Iyabo Ojo"]
+  },
+  {
+    "id": 5,
+    "title": "King of Thieves",
+    "rating": 9.8,
+    "tag": ["latest"],
+    "numberOfVotes": 3679,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi doloribus, neque deserunt distinctio dicta quibusdam nisi? Odio ut, deserunt, quam temporibus quasi eaque quae iure, totam incidunt id quia?",
+    "cast": ["Odunlade Adekola", "Femi Adebayo", "Iyabo Ojo"]
+  },
+  {
+    "id": 6,
+    "title": "King of Thieves",
+    "rating": 9.8,
+    "tag": ["incoming"],
+    "numberOfVotes": 3679,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi doloribus, neque deserunt distinctio dicta quibusdam nisi? Odio ut, deserunt, quam temporibus quasi eaque quae iure, totam incidunt id quia?",
+    "cast": ["Odunlade Adekola", "Femi Adebayo", "Iyabo Ojo"]
+  },
+  {
+    "id": 7,
+    "title": "King of Thieves",
+    "rating": 9.8,
+    "tag": ["incoming", "trending"],
+    "numberOfVotes": 3679,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi doloribus, neque deserunt distinctio dicta quibusdam nisi? Odio ut, deserunt, quam temporibus quasi eaque quae iure, totam incidunt id quia?",
+    "cast": ["Odunlade Adekola", "Femi Adebayo", "Iyabo Ojo"]
+  },
+  {
+    "id": 8,
+    "title": "King of Thieves",
+    "rating": 9.8,
+    "tag": ["incoming", "latest"],
+    "numberOfVotes": 3679,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi doloribus, neque deserunt distinctio dicta quibusdam nisi? Odio ut, deserunt, quam temporibus quasi eaque quae iure, totam incidunt id quia?",
+    "cast": ["Odunlade Adekola", "Femi Adebayo", "Iyabo Ojo"]
+  }
+]

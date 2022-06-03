@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import newMovies from "../assets/data/newMovies.json";
+import { getIncomingMovies } from "../shared/movieService";
 import HeroTile from "../reusable/heroTile";
 
 export default function Hero() {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    const movies = [...newMovies];
+    const movies = [...getIncomingMovies()];
     setMovies(movies);
-  }, [newMovies]);
+  }, [getIncomingMovies]);
 
   return (
     <div className="flex flex-col xl:flex-row hero">
@@ -17,7 +17,7 @@ export default function Hero() {
       </div>
       <div className="xl:w-[40%] mx-2 xl:mx-0 mt-5 xl:mt-0">
         <h2 className="font-bold text-2xl text-green-800">COMING SOOON</h2>
-        {newMovies.map(({ cast, description, title }, index) => (
+        {movies.slice(0, 4).map(({ cast, description, title }, index) => (
           <HeroTile
             key={index}
             cast={cast}
