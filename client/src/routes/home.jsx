@@ -21,7 +21,7 @@ export default function Home() {
           <HighestRated highestRated={highestRated} />
           <WhatToWatch whatToWatch={highestRated} />
         </div>
-        <div className="xl:w-[26%]">
+        <div className="mx-2 xl:mx-0 xl:w-[26%]">
           <NewsSidebar />
         </div>
       </div>

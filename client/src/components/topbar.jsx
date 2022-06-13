@@ -13,7 +13,7 @@ export default function Topbar() {
         <span className="font-bold">TRENDING : </span>
       </div>
 
-      <div className="hidden xl:flex w-[30%] justify-evenly bg-green-300 py-1">
+      <div className="hidden xl:flex w-[20%] justify-evenly bg-green-200 py-1">
         <a href="">
           <img
             src={facebookIcon}

@@ -10,7 +10,7 @@ export default function FooterSocial() {
   return (
     <>
       <li className="list-none">
-        <a href="">
+        <a href="" className="block shadow-lg rounded-md p-3 hover:bg-gray-200">
           <img
             className="w-[30px] h-[30px]"
             src={facebookIcon}
@@ -19,7 +19,7 @@ export default function FooterSocial() {
         </a>
       </li>
       <li className="list-none">
-        <a href="">
+        <a href="" className="block shadow-lg rounded-md p-3 hover:bg-gray-200">
           <img
             className="w-[30px] h-[30px]"
             src={instagramIcon}
@@ -28,7 +28,7 @@ export default function FooterSocial() {
         </a>
       </li>
       <li className="list-none">
-        <a href="">
+        <a href="" className="block shadow-lg rounded-md p-3 hover:bg-gray-200">
           <img
             className="w-[30px] h-[30px]"
             src={twitterIcon}
@@ -37,7 +37,7 @@ export default function FooterSocial() {
         </a>
       </li>
       <li className="list-none">
-        <a href="">
+        <a href="" className="block shadow-lg rounded-md p-3 hover:bg-gray-200">
           <img
             className="w-[30px] h-[30px]"
             src={youtubeIcon}
