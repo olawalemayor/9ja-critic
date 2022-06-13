@@ -20,7 +20,7 @@ export default function Navbar({ isToggled }) {
 
   return (
     <div
-      className={`absolute w-full xl:relative bg-white ${
+      className={`absolute  w-full xl:relative bg-white ${
         isToggled ? "slide-in" : "slide-out"
       }`}
     >

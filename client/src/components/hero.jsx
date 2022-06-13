@@ -29,7 +29,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col lg:flex-row hero lg:mx-2 xl:mx-0">
       <div className="lg:w-[60%]">
-        <div className="youtube-vid bg-slate-800 w-full lg:w-[600px] xl:w-[700px] h-[300px] lg:h-[500px]">
+        <div className="youtube-vid bg-slate-800 w-full lg:w-[600px] xl:w-[700px] h-[300px] sm:h-[500px] lg:h-[500px]">
           {/* <video src={featuredVideo}></video> */}
         </div>
       </div>
