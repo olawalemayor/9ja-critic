@@ -2,19 +2,16 @@ import express from "express";
 
 const router = express.Router();
 
-//get all users
-router.get("/", (req, res) => {});
+router.get("/:movieId", (req, res) => {});
 
-//get a user
-router.get("/:id", (req, res) => {});
+router.get("/:movieId/user", (req, res) => {});
 
-//create a user
 router.post("/", (req, res) => {});
 
-//update a user
+//update rating
 router.put("/:id", (req, res) => {});
 
-//delete a user
+//delete a rating
 router.delete("/:id", (req, res) => {});
 
 module.exports = router;

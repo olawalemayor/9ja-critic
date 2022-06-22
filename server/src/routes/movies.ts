@@ -1,49 +1,23 @@
-import { Router } from "express";
+import express from "express";
 
-const { Movie } = require("../models/movie");
+const router = express.Router();
 
-const router = Router();
+//get all movies
+router.get("/", (req, res) => {});
 
-router.get("/", (req, res) => {
-  res.send("This is the movie directory");
-});
+//get a single movie
+router.get("/:id", (req, res) => {});
 
-router.get("/all", async (req, res) => {
-  console.log("all is responding");
-  const movies = await Movie.find();
-  console.log(movies);
-  if (!movies) {
-    console.log("No movie");
-    res.status(404).send("Movie was not found!");
-  }
+//create a new movie
+router.post("/", (req, res) => {});
 
-  res.send(movies);
-});
+//like a movie
+router.post("/:id/like", (req, res) => {});
 
-router.get("/movie/:movieId", async (req, res) => {
-  const { movieId } = req.params;
-  const movie = await Movie.findById(movieId);
+//update a movie
+router.put("/:id", (req, res) => {});
 
-  if (!movie) res.status(404).send("Movie not found");
-
-  res.send(movie);
-});
-
-router.post("/new", (req, res) => {
-  const newMovie = new Movie(req.body);
-
-  // User.findOne(
-  //   { email: newMovie.email },
-  //   (err: Error, registeredUser: UserModel) => {
-  //     if (err) console.log(err);
-
-  //     if (registeredUser) res.status(404).send("User already exists");
-  //     else {
-  //     }
-  //   }
-  //   );
-  newMovie.save();
-  res.send(newMovie);
-});
+//delete a movie
+router.delete("/:id", (req, res) => {});
 
 module.exports = router;
