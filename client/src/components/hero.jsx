@@ -33,8 +33,12 @@ export default function Hero() {
           {/* <video src={featuredVideo}></video> */}
         </div>
       </div>
+
       <div className="lg:w-[40%] mx-2 lg:mx-0 mt-5 lg:mt-0">
         <h2 className="font-bold text-2xl text-green-800">COMING SOOON</h2>
+
+        {/* distribute the incoming movie into 4 */}
+
         {movies.slice(0, 4).map(({ cast, description, title }, index) => (
           <HeroTile
             key={index}

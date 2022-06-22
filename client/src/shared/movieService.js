@@ -1,11 +1,15 @@
-import Movies from "../assets/data/movies.json";
+import Movies from "../assets/data/movies.json"; //temporary database
 
+//TODO: Install Axios for making http requests
+
+//get all movies
 const getMovies = () => {
   const movies = [...Movies];
 
   return movies;
 };
 
+//get single movie
 const getMovie = (id) => {
   const movies = [...Movies];
   const movie = movies.find((movie) => movie.id === id);
@@ -14,6 +18,7 @@ const getMovie = (id) => {
   return movie;
 };
 
+//get latest movie
 const getLatestMovies = () => {
   const movies = [...Movies];
 
@@ -26,6 +31,7 @@ const getLatestMovies = () => {
   return result;
 };
 
+//get trending movies
 const getTrendingMovies = () => {
   const movies = [...Movies];
 
@@ -38,6 +44,7 @@ const getTrendingMovies = () => {
   return result;
 };
 
+//get movies that are coming soon
 const getIncomingMovies = () => {
   const movies = [...Movies];
 
@@ -50,6 +57,7 @@ const getIncomingMovies = () => {
   return result;
 };
 
+//get highest rated movies
 const getHighestRated = () => {
   const movies = [...Movies];
 

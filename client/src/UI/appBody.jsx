@@ -5,6 +5,7 @@ import { Blog, Home, LatestMovies, TrendingMovies } from "../routes";
 export default function AppBody() {
   return (
     <div>
+      {/* routes */}
       <Routes>
         <Route path="blog" element={<Blog />} />
         <Route path="latest" element={<LatestMovies />} />

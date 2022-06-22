@@ -13,9 +13,11 @@ export default function Footer() {
       </div>
 
       <div className="text-green-800 font-bold text-5xl text-center my-6">
+        {/* logo as a text */}
         9JA<span className="text-black">CRI</span>TIC
       </div>
 
+      {/* copyright section */}
       <div className="text-center">&copy; 2022. All right reserved.</div>
     </div>
   );

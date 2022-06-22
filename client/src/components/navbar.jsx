@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Login from "./login";
 import Register from "./register";
 import "../extra/menu-slide.css";
+import HeaderContext from "../context/headerContext";
 
-export default function Navbar({ isToggled }) {
-  const [onLogin, setOnLogin] = useState(false);
-  const [onSignUp, setOnSignUp] = useState(false);
+export default function Navbar() {
+  const { isToggled, onLogin, setOnLogin, onSignUp, setOnSignUp } =
+    useContext(HeaderContext);
 
   const handleLoginClick = () => {
     setOnSignUp(false);

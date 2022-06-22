@@ -1,10 +1,19 @@
 import React from "react";
 
 export default function Register() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    //get the form data
+    //validate the form
+    //send form to server
+    //return response
+  };
+
   return (
     <div className="rounded-lg bg-white p-2 shadow-md mt-2 border">
       <div className="text-center font-bold uppercase my-2 mb-5">Signup</div>
 
+      {/* external social method of registration */}
       <div className="h-14 w-full xl:w-[75%] bg-white shadow-md border rounded-md mx-auto my-2 flex items-center justify-center cursor-pointer">
         <div>Continue with Facebook</div>
       </div>
@@ -17,7 +26,8 @@ export default function Register() {
         <div>Continue with Facebook</div>
       </div>
 
-      <form className="text-center m-4 border">
+      {/* form for registering on this platform */}
+      <form className="text-center m-4 border" onSubmit={handleSubmit}>
         <div className="form-group my-3">
           <label htmlFor="firstname" className="block font-semibold">
             First Name:
@@ -51,7 +61,10 @@ export default function Register() {
           />
         </div>
 
-        <button className="bg-green-800 text-white py-2 px-5 rounded-md uppercase mb-2">
+        <button
+          className="bg-green-800 text-white py-2 px-5 rounded-md uppercase mb-2"
+          type="submit"
+        >
           create account
         </button>
       </form>
